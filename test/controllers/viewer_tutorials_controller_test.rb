@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class PdfsControllerTest < ActionDispatch::IntegrationTest
+class ViewerTutorialsControllerTest < ActionDispatch::IntegrationTest
   # test "the truth" do
   #   assert true
   # end

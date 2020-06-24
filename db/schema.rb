@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_06_24_174438) do
+ActiveRecord::Schema.define(version: 2020_06_24_190525) do
 
   create_table "pdfs", force: :cascade do |t|
     t.string "attachment_uid"
@@ -21,6 +21,14 @@ ActiveRecord::Schema.define(version: 2020_06_24_174438) do
   end
 
   create_table "resources", force: :cascade do |t|
+    t.string "attachment_uid"
+    t.string "attachment_name"
+    t.text "text_content"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "viewer_tutorials", force: :cascade do |t|
     t.string "attachment_uid"
     t.string "attachment_name"
     t.text "text_content"

@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class PdfTest < ActiveSupport::TestCase
+class ViewerTutorialTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end

@@ -1,6 +1,6 @@
-class CreatePdfs < ActiveRecord::Migration[6.0]
+class CreateViewerTutorials < ActiveRecord::Migration[6.0]
   def change
-    create_table :pdfs do |t|
+    create_table :viewer_tutorials do |t|
       t.string  :attachment_uid
       t.string  :attachment_name
       t.text    :text_content
