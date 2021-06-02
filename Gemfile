@@ -21,7 +21,7 @@ gem 'jbuilder', '~> 2.7'
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-gem 'dragonfly', '~> 1.2.0'
+gem 'dragonfly', '~> 1.4.0'
 gem 'pry-rails'
 gem 'pdf-reader'
 gem 'pdfjs_viewer-rails'
